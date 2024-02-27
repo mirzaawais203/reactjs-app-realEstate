@@ -1,0 +1,32 @@
+.surrounding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.surrounding > h3{
+    color: #414141;
+    font-weight: 500;
+    font-size: 35px;
+    text-align: center;
+    word-spacing: 3px;
+    margin: 60px 0 30px 0;
+
+}
+.surrounding> video{
+    width: 62%;
+    height: auto;
+}
+@media (max-width:800px){
+.surrounding > h3{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+}
+    .surrounding > img{
+        width: 100%;
+    }
+    .surrounding> video{
+        width: 90vw;
+    }
+}

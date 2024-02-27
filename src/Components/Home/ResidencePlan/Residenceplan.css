@@ -1,0 +1,85 @@
+.residenceplan > div > h3,
+.location > h3 {
+  color: #414141;
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+  word-spacing: 3px;
+  margin: 60px 0 0 0;
+}
+.location > h3{
+  margin-bottom: 20px;
+}
+.residenceplan-top {
+  display: grid;
+  grid-template-columns: repeat(3,22vw);
+  justify-content: center;
+}
+.residenceplan-img > div > img {
+  width: 200px;
+  height: 200px;
+  margin: 25px 0 0 0
+}
+
+.residenceplan-top-content> p{
+    font-size: 13px;
+    color: #626569;
+    padding: 5px 0;
+}
+.residenceplan-1bed,
+.residenceplan-studio,
+.residenceplan-2bed {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  margin-top: 70px;
+}
+.residenceplan-1bed>div,
+.residenceplan-studio>div,
+.residenceplan-2bed>div {
+  text-align: center;
+}
+.residenceplan-1bed> a, .residenceplan-studio> a, .residenceplan-2bed> a{
+    padding: 8px 18px;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+.residenceplan-top-headings>p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #414141;
+}
+.location-map>iframe{
+padding-top: -20px;
+}
+.link {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 1100px) {
+  .residenceplan-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .residenceplan-2bed {
+    grid-column: 1/3;
+  }
+}
+@media (max-width: 800px) {
+  .residenceplan > div > h3,
+.location > h3 {
+  font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+}
+  .residenceplan-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

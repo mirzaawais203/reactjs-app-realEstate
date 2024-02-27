@@ -1,0 +1,10 @@
+/* @media (max-width:850px) {
+    .route{
+      position: relative;
+    }
+    .nav-bar{
+      position: absolute;
+    top: -100;
+    z-index: 20;
+    }
+  } */

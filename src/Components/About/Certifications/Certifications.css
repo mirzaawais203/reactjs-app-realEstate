@@ -1,0 +1,118 @@
+.certifications {
+  text-align: center;
+  margin: 6vw 0;
+}
+.certifications-img {
+  margin: 4vw 0;
+}
+.certifications-img > img {
+  padding: 0 30px;
+  mix-blend-mode: multiply;
+  width: 140px;
+}
+.certifications > h3,
+.discover-park > h3,
+.residence-location > h3 {
+  margin: 60px 0 40px 0;
+  color: #414141;
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+  word-spacing: 3px;
+}
+
+.discover-park-content {
+  margin-top: 5vw;
+}
+.discover-park-top {
+  display: grid;
+  grid-template-columns: repeat(4, 15vw);
+  justify-content: center;
+}
+.discover-park-top > div,
+.discover-park-bottom > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.discover-park-top > div>img,
+.discover-park-bottom > div> img {
+  width: 80px;
+
+}
+.discover-park-top > div > p,
+.discover-park-bottom > div > p {
+  padding-top: 1vw;
+  font-size: 13px;
+  font-family: 300;
+  color: #2b2b2b;
+}
+.discover-park-bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 15vw);
+  justify-content: center;
+  margin-top: 50px;
+}
+.discover-park-bottom > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 20px; */
+}
+
+.residence-location {
+  margin: 6vw 0;
+}
+.residence-location > div {
+  padding-top: 5vw;
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+}
+.residence-location-img > div > img {
+  width: 90%;
+}
+.residence-location-img > div {
+  text-align: center;
+}
+@media (max-width: 750px) {
+  .certifications > h3,
+  .discover-park > h3,
+  .residence-location > h3 {
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .residence-location-img {
+    display: flex;
+    flex-direction: column;
+  }
+  .certifications-img > img {
+    width: 25vw;
+  }
+  .certifications-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-row-gap: 50px;
+  }
+  .discover-park-top {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 50px;
+  }
+  .discover-park > h3,
+  .certifications > h3 {
+    font-size: 25px;
+  }
+  .discover-park-top > div > img,
+  .discover-park-bottom > div > img {
+    width: 10vw;
+  }
+  .discover-park-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+  }
+}
