@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -34,10 +35,18 @@ const Footer = () => {
             <p>Blogs</p>
           </div>
           <div className="footer-top-bottom">
-            <FontAwesomeIcon icon={faFacebook} className="footer-bottom-icon" />
-            <FontAwesomeIcon icon={faInstagram} className="footer-bottom-icon" />
-            <FontAwesomeIcon icon={faLinkedin} className="footer-bottom-icon" />
-            <FontAwesomeIcon icon={faEnvelope} className="footer-bottom-icon" />
+            <Link to="https://www.facebook.com/thegraciapk" target="_blank">
+              <FontAwesomeIcon icon={faFacebook} className="footer-bottom-icon" />
+            </Link>
+            <Link to="https://www.instagram.com/the.graciapk/" target="_blank">
+              <FontAwesomeIcon icon={faInstagram} className="footer-bottom-icon" />
+            </Link>
+            <Link target="_blank" to="https://www.linkedin.com/company/the-gracia">
+              <FontAwesomeIcon icon={faLinkedin} className="footer-bottom-icon" />
+            </Link>
+            <Link target="_blank" to="/ContactUs">
+              <FontAwesomeIcon icon={faEnvelope} className="footer-bottom-icon" />
+            </Link>
           </div>
         </div>
       </div>

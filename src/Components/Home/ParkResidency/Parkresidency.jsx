@@ -7,7 +7,7 @@ const Parkresidency = () => {
     <div>
       <div className="parkresidency">
         <div className="parkresidency-top">
-          <img src="./HomePhotos/ParkResidency/parkresidency.png" alt="" />
+          <img src="./HomePhotos/ParkResidency/parkresidency.jpg" alt="building" />
         </div>
         <div className="parkresidency-bottom">
           <h3>WELCOME TO <br /> THE PARK RESIDENCE</h3>

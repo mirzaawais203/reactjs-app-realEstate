@@ -35,16 +35,15 @@ const Amenities = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-      <SwiperSlide><img src="./HomePhotos/Amenities/1.webp" alt="" /></SwiperSlide>
-      <SwiperSlide><img src="./HomePhotos/Amenities/2.webp" alt="" /></SwiperSlide>
-      <SwiperSlide><img src="./HomePhotos/Amenities/4.webp" alt="" /></SwiperSlide>
-      <SwiperSlide><img src="./HomePhotos/Amenities/5.webp" alt="" /></SwiperSlide>
-      <SwiperSlide><img src="./HomePhotos/Amenities/6.webp" alt="" /></SwiperSlide>
-      <SwiperSlide><img src="./HomePhotos/Amenities/7.webp" alt="" /></SwiperSlide>
-      <SwiperSlide><img src="./HomePhotos/Amenities/8.webp" alt="" /></SwiperSlide>
-      <SwiperSlide><img src="./HomePhotos/Amenities/9.webp" alt="" /></SwiperSlide>
-      <SwiperSlide><img src="./HomePhotos/Amenities/10.webp" alt="" /></SwiperSlide>
-      <SwiperSlide><img src="./HomePhotos/Amenities/11.webp" alt="" /></SwiperSlide>
+      <SwiperSlide><img src="./HomePhotos/Amenities/1.jpg" alt="AenitiesPics" /></SwiperSlide>
+      <SwiperSlide><img src="./HomePhotos/Amenities/2.jpg" alt="AenitiesPics" /></SwiperSlide>
+      <SwiperSlide><img src="./HomePhotos/Amenities/4.jpg" alt="AenitiesPics" /></SwiperSlide>
+      <SwiperSlide><img src="./HomePhotos/Amenities/5.jpg" alt="AenitiesPics" /></SwiperSlide>
+      <SwiperSlide><img src="./HomePhotos/Amenities/6.jpg" alt="AenitiesPics" /></SwiperSlide>
+      <SwiperSlide><img src="./HomePhotos/Amenities/7.jpg" alt="AenitiesPics" /></SwiperSlide>
+      <SwiperSlide><img src="./HomePhotos/Amenities/8.jpg" alt="AenitiesPics" /></SwiperSlide>
+      <SwiperSlide><img src="./HomePhotos/Amenities/9.jpg" alt="AenitiesPics" /></SwiperSlide>
+      <SwiperSlide><img src="./HomePhotos/Amenities/10.jpg" alt="AenitiesPics" /></SwiperSlide>
 
 
       </Swiper>

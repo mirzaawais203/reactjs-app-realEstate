@@ -8,7 +8,7 @@ const header = () => {
         <div className="header-content">
           <h3>YOUR HOME IN THE PARK</h3>
           <p>
-            Residential Apartments Located In The Heart Of Bahria Town, Lahore.
+            Residential Apartments Located In The Heart of Bahria Town, Lahore.
           </p>
         </div>
       </div>

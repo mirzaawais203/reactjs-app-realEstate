@@ -5,12 +5,12 @@ const OurArchitectureData = [
         position:'DIRECTOR'
     },
     {
-        img:'./AboutPhotos/OurArchitecture/2.webp',
-        name:'MAHMOOD',
+        img:'./AboutPhotos/OurArchitecture/2.jpg',
+        name:'MAHMOOD ul Haq',
         position:'DIRECTOR'
     },
     {
-        img:'./AboutPhotos/OurArchitecture/3.webp',
+        img:'./AboutPhotos/OurArchitecture/3.jpg',
         name:'EHSAN',
         position:'DIRECTOR'
     },

@@ -14,7 +14,7 @@
 
 }
 .surrounding> video{
-    width: 62%;
+    width: 90%;
     height: auto;
 }
 @media (max-width:800px){
