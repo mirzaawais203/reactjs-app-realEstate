@@ -10,13 +10,13 @@ import Footer from "../../Components/Home/Footer/Footer"
 const About = () => {
   return (
     <div>
-    <Navbar/>
-    <Header/>
-      <CeoMessage/>
-      <OurArchitecture/>
-      <Parkresidency/>
-      <Certifications/>
-      <Footer/>
+      <Navbar />
+      <Header />
+      <CeoMessage />
+      <OurArchitecture />
+      <Parkresidency />
+      <Certifications />
+      <Footer />
     </div>
   )
 }

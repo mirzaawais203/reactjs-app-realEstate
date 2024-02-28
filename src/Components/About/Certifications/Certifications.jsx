@@ -40,7 +40,7 @@ const Certifications = () => {
               <p>PARK ON ALL SIDES</p>
             </div>
             <div>
-              <img src="./AboutPhotos/OurCertifications/6.png" alt="" style={{width:'60px'}}/>
+              <img src="./AboutPhotos/OurCertifications/6.png" alt="" style={{ width: '60px' }} />
               <p>ELEVATOR</p>
             </div>
             <div>

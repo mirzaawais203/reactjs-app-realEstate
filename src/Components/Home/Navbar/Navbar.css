@@ -1,5 +1,5 @@
 .navbar {
-  background-color:#24272D;
+  background-color: #24272d;
   height: 80px;
   padding: 46px 0;
   display: flex;
@@ -9,7 +9,7 @@
   top: 0;
   z-index: 20;
 }
-.navbar-logo >img{
+.navbar-logo > img {
   padding-top: 8px;
   width: 80px;
 }
@@ -35,7 +35,6 @@
   text-decoration: none;
   font-size: 2rem;
   flex-grow: 1;
-  
 }
 
 .nav-logo .icon {
@@ -53,7 +52,7 @@
   text-align: center;
   /* margin-right: 2rem; */
 }
-.nav-menu > li > a{
+.nav-menu > li > a {
   font-size: 14px;
   font-weight: 300;
 }
@@ -103,21 +102,15 @@
   height: 2rem;
 }
 @media screen and (max-width: 1100px) {
-.nav-container {
-  padding: 0 8vw;
-
-}
-
+  .nav-container {
+    padding: 0 8vw;
+  }
 }
 @media screen and (max-width: 950px) {
   .nav-container {
     padding: 0 5vw;
-  
   }
-  
-  }
-
-
+}
 
 @media screen and (max-width: 850px) {
   .nav-menu {
@@ -133,7 +126,7 @@
   }
 
   .nav-menu.active {
-    background: #24272D;
+    background: #24272d;
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;
@@ -166,7 +159,6 @@
     color: #fff;
   }
   .navbar {
-    
     position: absolute;
     top: 0;
     width: 100%;

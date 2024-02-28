@@ -1,72 +1,71 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  .parkresidency{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    /* height: 50vw; */
-    gap: -20px;
-    margin-top: 100px;
-  }
-  .parkresidency-top>img{
-    width: 100%;
-  }
-  .parkresidency-bottom{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    max-width: 35vw;
-    gap: 25px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
- .parkresidency-bottom > h3{
-    color: #414141;
-    font-weight: 700;
-    font-size: 20px;
-    text-align: center;
-    word-spacing: 3px;
-    line-height: 30px;
+.parkresidency {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* height: 50vw; */
+  gap: -20px;
+  margin-top: 100px;
 }
-.parkresidency-bottom > p{
-    color: #626569;
-    font-weight: 300;
-    font-size: 13px;
-    text-align: center;
-    line-height: 18px;
-
+.parkresidency-top > img {
+  width: 100%;
 }
-.parkresidency-bottom > a{
-    padding: 8px 18px;
-    border-radius: 5px;
-    background-color: #000000;
-    color: #FFFFFF;
-    font-size: 12px;
+.parkresidency-bottom {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 35vw;
+  gap: 25px;
 }
-@media (max-width:1050px) {
+.parkresidency-bottom > h3 {
+  color: #414141;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  word-spacing: 3px;
+  line-height: 30px;
+}
+.parkresidency-bottom > p {
+  color: #626569;
+  font-weight: 300;
+  font-size: 13px;
+  text-align: center;
+  line-height: 18px;
+}
+.parkresidency-bottom > a {
+  padding: 8px 18px;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 12px;
+}
+@media (max-width: 1050px) {
   .parkresidency {
     margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
   }
-  .parkresidency-top>img{
+  .parkresidency-top > img {
     width: 90vw;
   }
   .parkresidency-bottom {
     margin-top: 50px;
   }
-  .parkresidency-bottom > p{
+  .parkresidency-bottom > p {
     width: 85vw;
   }
-  .parkresidency-bottom > h3{
+  .parkresidency-bottom > h3 {
     width: 100%;
   }
 }
-@media (max-width:1050px) {
-  .parkresidency-bottom{
+@media (max-width: 1050px) {
+  .parkresidency-bottom {
     max-width: 75vw;
   }
 }

@@ -9,9 +9,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
-
-
-
 const Footer = () => {
   return (
     <div>

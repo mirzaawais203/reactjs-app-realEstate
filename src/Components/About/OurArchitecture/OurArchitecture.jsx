@@ -38,18 +38,18 @@ const OurArchitecture = () => {
         </div>
 
         <div className="ourarchitecture-bottom">
-        <Slider {...settings}  >
-          {OurArchitectureData.map(d => (
-            <div className='ourarchitecture-cards'>
-              <div className='ourarchitecture-cards-img'>
-                <img src={d.img} alt="" />
+          <Slider {...settings}  >
+            {OurArchitectureData.map(d => (
+              <div className='ourarchitecture-cards'>
+                <div className='ourarchitecture-cards-img'>
+                  <img src={d.img} alt="" />
+                </div>
+                <div className='ourarchitecture-cards-content'>
+                  <h3>{d.name}</h3>
+                  <p>{d.position}</p>
+                </div>
               </div>
-              <div className='ourarchitecture-cards-content'>
-                <h3>{d.name}</h3>
-                <p>{d.position}</p>
-              </div>
-            </div>
-          ))}
+            ))}
           </Slider>
         </div>
       </div>

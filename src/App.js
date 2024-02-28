@@ -1,5 +1,5 @@
 import "./App.css";
-import {Routes,Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About";
@@ -12,16 +12,16 @@ function App() {
 
   return (
     <BrowserRouter>
-    <Routes>
-      <Route path="/" element=<Home/> /> 
-    <Route path='/About' element=<About/> />
-    <Route path='/Residence' element=<Residence/> />
-    <Route path='/ContactUs' element=<ContactUs/> />
+      <Routes>
+        <Route path="/" element=<Home /> />
+        <Route path='/About' element=<About /> />
+        <Route path='/Residence' element=<Residence /> />
+        <Route path='/ContactUs' element=<ContactUs /> />
 
 
-    </Routes>
+      </Routes>
     </BrowserRouter>
-    
+
   );
 }
 

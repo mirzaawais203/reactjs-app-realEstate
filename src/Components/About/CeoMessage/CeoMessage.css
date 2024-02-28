@@ -1,68 +1,64 @@
-.ceomessage{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* gap: 10vw; */
-    padding: 20px 10vw;
-    margin-top: 7vw;
+.ceomessage {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: 10vw; */
+  padding: 20px 10vw;
+  margin-top: 7vw;
 }
-.ceomessage-img > img{
-    width: 500px;
+.ceomessage-img > img {
+  width: 500px;
 }
-.ceomessage-message{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* color: #626569; */
+.ceomessage-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* color: #626569; */
 }
-.ceomessage-message> h3{
-    padding: 20px 0 10px 0;
-    color: #414141;
-    font-weight: 500;
-    font-size: 35px;
-    word-spacing: 5px;
+.ceomessage-message > h3 {
+  padding: 20px 0 10px 0;
+  color: #414141;
+  font-weight: 500;
+  font-size: 35px;
+  word-spacing: 5px;
 }
-.ceomessage-message> h4{
-    font-size: 20px;
-    width: 80%;
-    text-align: center;
-    color: #414141e7;
-
+.ceomessage-message > h4 {
+  font-size: 20px;
+  width: 80%;
+  text-align: center;
+  color: #414141e7;
 }
-.ceomessage-message> h5{
-    font-size: 20px;
-    margin-top: 70px;
-    padding: 45px 0 10px 0;
-    color: #414141;
-
+.ceomessage-message > h5 {
+  font-size: 20px;
+  margin-top: 70px;
+  padding: 45px 0 10px 0;
+  color: #414141;
 }
-.ceomessage-message > p{
-    font-size: 20px;
-    word-spacing: 5px;
-    color: #414141e7;
-
+.ceomessage-message > p {
+  font-size: 20px;
+  word-spacing: 5px;
+  color: #414141e7;
 }
-.ceomessage-message > img{
-    padding-top: 25px;
-
+.ceomessage-message > img {
+  padding-top: 25px;
 }
-@media (max-width:900px) {
-.ceomessage-message> h3{
+@media (max-width: 900px) {
+  .ceomessage-message > h3 {
     font-weight: 600;
     font-size: 30px;
-}
-    .ceomessage {
-        display: flex;
-        flex-direction: column;
-    }
-    .ceomessage-img > img{
-        width: 100%;
-    }
-.ceomessage-message{
+  }
+  .ceomessage {
+    display: flex;
+    flex-direction: column;
+  }
+  .ceomessage-img > img {
+    width: 100%;
+  }
+  .ceomessage-message {
     margin-top: 30px;
-}
-.ceomessage-message> h5{
+  }
+  .ceomessage-message > h5 {
     padding: 0;
-}
+  }
 }

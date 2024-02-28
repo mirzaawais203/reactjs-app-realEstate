@@ -6,10 +6,10 @@ import Footer from '../../Components/Home/Footer/Footer'
 const ContactUs = () => {
   return (
     <div>
-      <Navbar/>
-      <Contact/>
-        <Footer/>
-      </div>
+      <Navbar />
+      <Contact />
+      <Footer />
+    </div>
   )
 }
 

@@ -23,35 +23,35 @@ const Contact = () => {
           console.log('FAILED...', error.text);
         },
       );
-      e.target.reset()
+    e.target.reset()
 
-      }
+  }
   return (
     <div>
       <div className="contact">
         <h3>CONTACT US</h3>
         <div className="contact-container">
           <div className="contact-form-container">
-          <form action="" className="conatct-form" ref={form} onSubmit={sendEmail}>
-          <label htmlFor="name">Name:</label>
-          <input type="text" name="user_name" id="name" placeholder='Full Name' required />
-          <label htmlFor="email">Email:</label>
-          <input type="email" name="user_email" id="email" placeholder='Email' required />
-          <label htmlFor="phone">Phone:</label>
-          <PhoneInput
-            className='country-input'
-            defaultCountry="PK"
-            placeholder="Phone number"
-            value={value}
-            onChange={setValue}
-            required
-            name="user_phone"
-            id="phone"
-          />
-          <label htmlFor="message">Message:</label>
-          <textarea name="message" id="message" required placeholder='Write Your Message Here' rows="5"></textarea>
-          <input type="submit" value="Submit" />
-        </form>
+            <form action="" className="conatct-form" ref={form} onSubmit={sendEmail}>
+              <label htmlFor="name">Name:</label>
+              <input type="text" name="user_name" id="name" placeholder='Full Name' required />
+              <label htmlFor="email">Email:</label>
+              <input type="email" name="user_email" id="email" placeholder='Email' required />
+              <label htmlFor="phone">Phone:</label>
+              <PhoneInput
+                className='country-input'
+                defaultCountry="PK"
+                placeholder="Phone number"
+                value={value}
+                onChange={setValue}
+                required
+                name="user_phone"
+                id="phone"
+              />
+              <label htmlFor="message">Message:</label>
+              <textarea name="message" id="message" required placeholder='Write Your Message Here' rows="5"></textarea>
+              <input type="submit" value="Submit" />
+            </form>
           </div>
           <div className="contact-map">
             <iframe

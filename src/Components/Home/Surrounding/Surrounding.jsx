@@ -5,7 +5,7 @@ const Surrounding = () => {
   return (
     <div>
       <div className="surrounding">
-      <h3>SURROUNDINGS</h3>
+        <h3>SURROUNDINGS</h3>
         <video src="./HomePhotos/Surrounding/surrounding.mp4" controls></video>
       </div>
     </div>

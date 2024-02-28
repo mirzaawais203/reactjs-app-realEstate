@@ -35,12 +35,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  
 }
-.discover-park-top > div>img,
-.discover-park-bottom > div> img {
+.discover-park-top > div > img,
+.discover-park-bottom > div > img {
   width: 80px;
-
 }
 .discover-park-top > div > p,
 .discover-park-bottom > div > p {
@@ -92,7 +90,7 @@
   .certifications-img > img {
     width: 25vw;
   }
-  .certifications-img{
+  .certifications-img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;

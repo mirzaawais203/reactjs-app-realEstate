@@ -1,94 +1,95 @@
-.contact{
-    background-image: linear-gradient(rgba(0, 0, 0, .5),
-    rgba(0, 0, 0, .5)), url('/public/ContactPhotos/Contact.webp');
-    height: 100%;
-    padding-bottom: 5vw;
+.contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/public/ContactPhotos/Contact.webp");
+  height: 100%;
+  padding-bottom: 5vw;
 }
-.contact> h3{
-    padding-top: 4vw;
-    color: #fff;
-    font-weight: 400;
-    font-size: 30px;
-    text-align: center;
-    word-spacing: 3px;
+.contact > h3 {
+  padding-top: 4vw;
+  color: #fff;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  word-spacing: 3px;
 }
-.contact-container{
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+.conatct-form > label {
+  padding-top: 0.5vw;
+  font-size: 12px;
+}
+.conatct-form > input,
+.conatct-form > textarea {
+  width: 20vw;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 8px;
+}
+.conatct-form > input[type="submit"] {
+  width: 7vw;
+  margin-top: 0.5vw;
+  background-color: rgba(6, 106, 171, 1);
+  color: #fff;
+  cursor: pointer;
+}
+.conatct-form > input:focus {
+  outline: none;
+}
+.contact-form-container > form {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vw;
+}
+.contact-map {
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+}
+.contact-map > iframe {
+  border-radius: 5px;
+}
+.contact-map-bottom > p {
+  color: #fff;
+  font-size: 13px;
+}
+.country-input {
+  border-radius: 5px;
+  border: transparent;
+  padding: 5px 8px;
+  background-color: rgb(255, 254, 254);
+  color: #fff;
+  cursor: pointer;
+}
+.country-input > input {
+  border: none;
+}
+.country-input > input:focus {
+  outline: none;
+}
+@media (max-width: 1050px) {
+  .contact-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-items: center;
+  }
+  .conatct-form > input,
+  .conatct-form > textarea {
+    width: 80vw;
+  }
+  .conatct-form > input[type="submit"] {
+    width: 70px;
+  }
 }
-.conatct-form> label{
-    padding-top: .5vw;
-    font-size: 12px;
-}
-.conatct-form> input,.conatct-form> textarea{
-    width: 20vw;
-    border-radius: 5px;
-    border: none;
-    padding: 5px 8px;
-}
-.conatct-form> input[type=submit]{
-    width: 7vw;
-    margin-top: .5vw;
-    background-color: rgba(6, 106, 171, 1);
-    color: #fff;
-    cursor: pointer;
-}
-.conatct-form> input:focus{
-    outline: none;
-}
-.contact-form-container >form{
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    gap: .5vw;
-}
-.contact-map{
-    display: flex;
-    flex-direction: column;
-    gap: 3vw;
-}
-.contact-map> iframe{
-    border-radius: 5px;
-}
-.contact-map-bottom> p{
-    color: #fff;
-    font-size: 13px;
-}
-.country-input{
-    border-radius: 5px;
-    border: transparent;
-    padding: 5px 8px;
-    background-color: rgb(255, 254, 254);
-    color: #fff;
-    cursor: pointer;
-}
-.country-input>input{
-    border: none;
-}
-.country-input>input:focus{
-    outline: none;
-}
-@media (max-width:1050px) {
-    
-    .contact-container{
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;
-    }
-    .conatct-form> input,.conatct-form> textarea{
-        width: 80vw;
-    }
-    .conatct-form> input[type=submit]{
-        width: 70px;
-    }
-}
-@media (max-width:850px){
-.contact> h3{
+@media (max-width: 850px) {
+  .contact > h3 {
     font-weight: 600;
     font-size: 30px;
-}
-    .contact{
-        margin-top: 80px;
-    }
+  }
+  .contact {
+    margin-top: 80px;
+  }
 }

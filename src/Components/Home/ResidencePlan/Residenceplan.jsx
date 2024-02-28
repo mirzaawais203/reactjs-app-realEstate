@@ -71,7 +71,7 @@ const Residenceplan = () => {
             </div>
             <div className="residenceplan-top-content">
               <p>GYM AREA</p>
-              <p>SUANA</p> 
+              <p>SUANA</p>
               <p>LOCKERS</p>
               <p>CARDIO AREA</p>
               <p>RECEPTION</p>
@@ -98,7 +98,6 @@ const Residenceplan = () => {
       </div>
       <div className="location">
         <h3>LOCATION</h3>
-
         <div className="location-map">
           <iframe
             title="unique"
@@ -109,7 +108,6 @@ const Residenceplan = () => {
             allowFullScreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
-            
         </div>
       </div>
     </div>

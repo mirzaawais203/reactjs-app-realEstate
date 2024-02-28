@@ -1,55 +1,49 @@
-.residenceheader{
-    background-image: url('/public/AboutPhotos/AboutHeader/header.webp');
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 55vh;
-    display: flex;
-    align-items: center;
+.residenceheader {
+  background-image: url("/public/AboutPhotos/AboutHeader/header.webp");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 55vh;
+  display: flex;
+  align-items: center;
 }
-.residenceheader > p{
-    margin-left: 5vw;    
-    font-weight: 700;
-    font-size: 35px;
-    word-spacing: 3px;
-    color: #1d1d1d;
+.residenceheader > p {
+  margin-left: 5vw;
+  font-weight: 700;
+  font-size: 35px;
+  word-spacing: 3px;
+  color: #1d1d1d;
 }
 
-
-
-
-.residenceheader{
-    background-image: url('/public/AboutPhotos/AboutHeader/header.webp');
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 40ch;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+.residenceheader {
+  background-image: url("/public/AboutPhotos/AboutHeader/header.webp");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 40ch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
-.residenceheader> p{
-    margin-left: 5vw;    
-    font-weight: 700;
-    font-size: 50px;
-    letter-spacing: 2px;
-    color: #161616;
+.residenceheader > p {
+  margin-left: 5vw;
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: #161616;
 }
-@media (max-width:850px) {
-.residenceheader{
+@media (max-width: 850px) {
+  .residenceheader {
     margin-top: 92px;
-}
-.residenceheader p{
+  }
+  .residenceheader p {
     font-weight: 600;
     font-size: 35px;
     letter-spacing: 1px;
-
-}
-.residenceheader{
+  }
+  .residenceheader {
     height: 30ch;
-
-}
-    
+  }
 }
