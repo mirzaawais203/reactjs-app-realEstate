@@ -6,10 +6,13 @@ const Certifications = () => {
       <div className="certifications">
         <h3>OUR PARTNERS</h3>
         <div className="certifications-img">
-          <img src="./AboutPhotos/OurCertifications/ourpartners1.png" alt="" />
-          <img src="./AboutPhotos/OurCertifications/ourpartners2.png" alt="" />
-          <img src="./AboutPhotos/OurCertifications/ourpartners3.png" alt="" />
-          <img src="./AboutPhotos/OurCertifications/ourpartners4.png" alt="" />
+          <img src="./AboutPhotos/OurCertifications/ourpartners1.png" alt="partners" />
+          <img src="./AboutPhotos/OurCertifications/ourpartners2.jpeg" alt="partners" />
+          <img src="./AboutPhotos/OurCertifications/ourpartners3.jpeg" alt="partners" />
+          <img src="./AboutPhotos/OurCertifications/ourpartners4.jpeg" alt="partners" style={{width:'170px'}}/>
+          <img src="./AboutPhotos/OurCertifications/ourpartners5.png" alt="partners" style={{width:'170px'}}/>
+          <img src="./AboutPhotos/OurCertifications/ourpartners6.png" alt="partners" />
+
 
         </div>
       </div>

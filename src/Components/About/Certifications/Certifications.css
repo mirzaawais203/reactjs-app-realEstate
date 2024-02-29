@@ -5,10 +5,16 @@
 .certifications-img {
   margin: 4vw 0;
 }
+.certifications-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6vw;
+}
 .certifications-img > img {
   padding: 0 30px;
   mix-blend-mode: multiply;
-  width: 140px;
+  width: 120px;
 }
 .certifications > h3,
 .discover-park > h3,
@@ -87,14 +93,11 @@
     display: flex;
     flex-direction: column;
   }
-  .certifications-img > img {
-    width: 25vw;
-  }
   .certifications-img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    grid-row-gap: 50px;
+    grid-row-gap: 40px;
   }
   .discover-park-top {
     grid-template-columns: repeat(2, 1fr);

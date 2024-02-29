@@ -1,10 +1,10 @@
 .about-header {
-  background-image: url("/public/AboutPhotos/AboutHeader/header.webp");
+  background-image: url("/public/AboutPhotos/AboutHeader/header.jpg");
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 40ch;
+  height: 55ch;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -29,3 +29,10 @@
     height: 30ch;
   }
 }
+@media (max-width: 650px) {
+  .about-header {
+    height: 20ch;
+  }
+
+}
+
