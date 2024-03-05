@@ -19,7 +19,7 @@
 .certifications > h3,
 .discover-park > h3,
 .residence-location > h3 {
-  margin: 60px 0 40px 0;
+  margin: 60px 0 50px 0;
   color: #414141;
   font-weight: 500;
   font-size: 35px;
@@ -71,7 +71,7 @@
   margin: 6vw 0;
 }
 .residence-location > div {
-  padding-top: 5vw;
+  /* padding-top: 5vw; */
   display: flex;
   justify-content: center;
   gap: 2vw;

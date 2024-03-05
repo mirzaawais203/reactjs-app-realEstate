@@ -62,7 +62,7 @@ const Contact = () => {
               style={{ border: "0", marginTop: "35px" }}
               allowFullScreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
             <div className="contact-map-bottom">
               <p>Gracia</p>

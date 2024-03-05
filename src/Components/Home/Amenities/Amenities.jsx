@@ -9,7 +9,7 @@ const Amenities = () => {
   return (
     <div>
       <div className='amenities-top'>
-        <h3>AMENITIES</h3>
+        <h3>AMENITIES AT A GLANCE</h3>
       </div>
       <Swiper
         spaceBetween={30}
