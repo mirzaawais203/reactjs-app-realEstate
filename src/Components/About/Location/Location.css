@@ -1,0 +1,33 @@
+.residence-location > h3 {
+  margin: 60px 0 50px 0;
+  color: #414141;
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+  word-spacing: 3px;
+}
+.residence-location {
+    margin: 6vw 0;
+  }
+  .residence-location > div {
+    /* padding-top: 5vw; */
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+  }
+  .residence-location-img > div > img {
+    width: 90%;
+  }
+  .residence-location-img > div {
+    text-align: center;
+  }
+  @media (max-width: 750px) {
+    .residence-location > h3 {
+      font-weight: 600;
+      font-size: 30px;
+    }
+    .residence-location-img {
+        display: flex;
+        flex-direction: column;
+      }
+  }

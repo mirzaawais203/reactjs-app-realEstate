@@ -19,7 +19,7 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 to="/"
-                activeClassName="active"
+                activeclassname="active"
                 className="nav-links"
                 onClick={handleClick}
               >
@@ -29,7 +29,7 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 to="/about"
-                activeClassName="active"
+                activeclassname="active"
                 className="nav-links"
                 onClick={handleClick}
               >
@@ -39,7 +39,7 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 to="/Residence"
-                activeClassName="active"
+                activeclassname="active"
                 className="nav-links"
                 onClick={handleClick}
               >
@@ -49,7 +49,7 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 to="/ContactUs"
-                activeClassName="active"
+                activeclassname="active"
                 className="nav-links"
                 onClick={handleClick}
               >
@@ -58,8 +58,8 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/contact"
-                activeClassName="active"
+                to="/"
+                activeclassname="active"
                 className="nav-links"
                 onClick={handleClick}
               >
@@ -68,8 +68,8 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/contact"
-                activeClassName="active"
+                to="/"
+                activeclassname="active"
                 className="nav-links"
                 onClick={handleClick}
               >

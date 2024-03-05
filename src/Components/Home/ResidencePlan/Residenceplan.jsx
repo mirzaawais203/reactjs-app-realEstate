@@ -107,7 +107,7 @@ const Residenceplan = () => {
             style={{ border: "0", marginTop: "35px" }}
             allowFullScreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>

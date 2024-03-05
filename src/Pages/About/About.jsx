@@ -1,7 +1,8 @@
 import Navbar from "../../Components/Home/Navbar/Navbar"
 import Header from "../../Components/About/Header/Header"
 import CeoMessage from "../../Components/About/CeoMessage/CeoMessage"
-import OurArchitecture from "../../Components/About/OurArchitecture/OurArchitecture"
+// import OurArchitecture from "../../Components/About/OurArchitecture/OurArchitecture"
+import Location from "../../Components/About/Location/Location"
 import Parkresidency from "../../Components/Home/ParkResidency/Parkresidency"
 import Certifications from "../../Components/About/Certifications/Certifications"
 import Footer from "../../Components/Home/Footer/Footer"
@@ -13,12 +14,14 @@ const About = () => {
       <Navbar />
       <Header />
       <CeoMessage />
-      <OurArchitecture />
-      <Parkresidency />
       <Certifications />
+      <Parkresidency />
+      <Location/>
       <Footer />
     </div>
   )
 }
 
 export default About
+
+// <OurArchitecture />

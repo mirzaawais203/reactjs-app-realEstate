@@ -12,20 +12,6 @@ const Certifications = () => {
           <img src="./AboutPhotos/OurCertifications/ourpartners4.jpeg" alt="partners" style={{ width: '170px' }} />
           <img src="./AboutPhotos/OurCertifications/ourpartners5.png" alt="partners" style={{ width: '170px' }} />
           <img src="./AboutPhotos/OurCertifications/ourpartners6.png" alt="partners" />
-
-
-        </div>
-      </div>
-
-      <div className="residence-location">
-        <h3>OUR LOCATION</h3>
-        <div className="residence-location-img">
-          <div>
-            <img src="./AboutPhotos/OurCertifications/location1.webp" alt="" />
-          </div>
-          <div>
-            <img src="./AboutPhotos/OurCertifications/location2.webp" alt="" />
-          </div>
         </div>
       </div>
     </div>
@@ -41,7 +27,7 @@ export default Certifications;
 
 
 
-// Its part but hide 
+// Its part but hide
 // <div className="discover-park">
 //   <h3>DISCOVER <br />THE PARK RESIDENCES</h3>
 //   <div className="discover-park-content">

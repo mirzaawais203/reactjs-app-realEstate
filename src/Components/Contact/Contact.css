@@ -1,21 +1,29 @@
 .contact {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/public/ContactPhotos/Contact.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("/public/ContactPhotos/Contact.jpg");
   height: 100%;
   padding-bottom: 5vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: start;
+  padding-left: 15vw;
 }
 .contact > h3 {
   padding-top: 4vw;
   color: #fff;
-  font-weight: 400;
-  font-size: 30px;
-  text-align: center;
-  word-spacing: 3px;
+  font-weight: 500;
+  font-size: 40px;
+  letter-spacing: 1px;
 }
 .contact-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 4vw;
+  margin-top: 5vw;
+
 }
 .conatct-form > label {
   padding-top: 0.5vw;
@@ -23,7 +31,7 @@
 }
 .conatct-form > input,
 .conatct-form > textarea {
-  width: 20vw;
+  width: 30vw;
   border-radius: 5px;
   border: none;
   padding: 5px 8px;
@@ -47,10 +55,7 @@
 .contact-map {
   display: flex;
   flex-direction: column;
-  gap: 3vw;
-}
-.contact-map > iframe {
-  border-radius: 5px;
+  gap: 2vw;
 }
 .contact-map-bottom > p {
   color: #fff;
@@ -70,7 +75,10 @@
 .country-input > input:focus {
   outline: none;
 }
-@media (max-width: 1050px) {
+@media (max-width: 1100px) {
+  .contact {
+    padding-left: 10vw;
+  }
   .contact-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -83,13 +91,38 @@
   .conatct-form > input[type="submit"] {
     width: 70px;
   }
+  .contact-map> iframe {
+    width: 80vw;
+  }
 }
 @media (max-width: 850px) {
+  .contact {
+    display: grid;
+    justify-items: center;
+    padding-left: 0vw;
+  }
   .contact > h3 {
+    text-align: center;
     font-weight: 600;
     font-size: 30px;
+    margin-top: 40px;
+
   }
   .contact {
     margin-top: 80px;
   }
+}
+@media (max-width: 650px) {
+  .contact-map> iframe {
+    padding: 0 9vw;
+    width: 100%;
+  }
+  .contact-map-bottom {
+    padding: 10px 0;
+  }  
+.contact-map-bottom > p {
+  padding: 0px 9vw;
+
+}
+
 }

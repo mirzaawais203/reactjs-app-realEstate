@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.about-header p {
+.about-header> p {
   margin-left: 5vw;
   font-weight: 700;
   font-size: 50px;

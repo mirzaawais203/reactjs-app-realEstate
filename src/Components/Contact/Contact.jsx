@@ -58,8 +58,8 @@ const Contact = () => {
               title="unique"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1663.1823674951568!2d73.13837317551018!3d31.438517409617777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392268f81b2ee939%3A0xf63788f52a5ff58c!2sMall%20of%20Faisalabad!5e0!3m2!1sen!2s!4v1705733984882!5m2!1sen!2s"
               width="100%"
-              height="200"
-              style={{ border: "0", marginTop: "35px" }}
+              height="250"
+              style={{ border: "0", marginTop: "20px" }}
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
