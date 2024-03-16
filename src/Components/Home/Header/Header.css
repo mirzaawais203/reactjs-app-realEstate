@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+.headermobileview {
+  display: none;
+}
 .header {
   background-image: url("/public/HomePhotos/Header/header.webp");
   width: 100%;
@@ -31,16 +34,50 @@
   line-height: 1.5;
 }
 @media (max-width: 850px) {
-  .header {
+  .header-top {
     display: none;
   }
-  .header-top {
-    background-image: url("/public/HomePhotos/Header/header.webp");
-    /* width: 100vw; */
-    background-size: cover;
-    background-position: center;
-    height: 30ch;
-    display: flex;
-    align-items: center;
+  .headermobileview {
+    margin-top: 92px;
+    display: block;
+    position: relative;
+  }
+  .headermobileview-img > img {
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+  }
+  .headermobileview-content {
+    position: absolute;
+    bottom: 40%;
+    left: 5%;
+  }
+  .headermobileview-content > h3 {
+    font-size: 65px;
+    word-spacing: 3px;
+    max-width: 450px;
+    font-weight: 700;
+    line-height: 1;
+    color: #2a2a2a;
+  }
+  .headermobileview-content > p {
+    font-size: 28px;
+    font-weight: 500;
+    max-width: 500px;
+    line-height: 1.5;
+    color: #2a2a2a;
+  }
+}
+@media (max-width: 550px) {
+  .headermobileview-content > h3 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .headermobileview-content > p {
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 300px;
+    line-height: 1.5;
   }
 }
