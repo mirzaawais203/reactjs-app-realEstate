@@ -23,8 +23,8 @@ function AppContent() {
 
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/About" element={<About />} />
+    <Route path="/" element={<Home />} />
+    <Route path="/About" element={<About />} />
       <Route path="/Residence" element={<Residence />} />
       <Route path="/ContactUs" element={<ContactUs />} />
     </Routes>

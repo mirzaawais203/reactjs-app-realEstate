@@ -2,10 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInstagram,
-  faFacebookF,
-} from "@fortawesome/free-brands-svg-icons";
+import {faInstagram, faFacebookF} from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
@@ -16,8 +13,8 @@ const Footer = () => {
         <div className="footer-left">
           <img src="./HomePhotos/footer/logo.png" alt="logo" />
           <p>
-            Introducing Pakistan to an extravagant and Premium lifestyle, the
-            most luxurious and tallest residential
+          Crafting Legacy with Swiss Excellence. <br />
+          Gracia, A Lifestyle Byound Luxury
           </p>
         </div>
         <div className="footer-mid">
@@ -69,7 +66,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 2021 THE ARK Residences All Copyrights Reserved,Designed by <Link>Hilighter</Link> </p>
+        <p>© 2021 THE PARK Residences All Copyrights Reserved,Designed by <Link to='https://hilighter.co/' target="_blank">Hilighter</Link> </p>
         <p>UAN: (042) 111 777 021  gracia.pk.com</p>
       </div>
     </div>

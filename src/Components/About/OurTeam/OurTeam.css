@@ -1,0 +1,92 @@
+.ourteam-top, .ourteam-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.ourteam-top > h3,.ourteam-bottom> h3 {
+    color: #414141;
+    font-weight: 500;
+    font-size: 35px;
+    word-spacing: 3px;
+    margin: 50px 0;
+  }
+.ourteam-top-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 5vw;
+    grid-row-gap: 3vw;
+    padding: 0 2vw;
+}
+.ourteam-top-card> div, .ourteam-bottom-card>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding-top: 15px;
+}
+.ourteam-top-card> div> h5, .ourteam-bottom-card>div> h5{
+    font-size: 16px;
+    color: #000000;
+}
+.ourteam-top-card1{
+    font-size: 15px;
+}
+.ourteam-top-card> div> p> .ourteam-bottom-card>div>p{
+    font-size: 15px;
+    color: #626569;
+}
+.ourteam-bottom-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5vw;
+    justify-items: center;
+    padding: 0 2vw;
+
+}
+@media (max-width:1153px) {
+.ourteam-top-card> div, .ourteam-bottom-card>div{
+    text-align: center;
+}
+}
+@media (max-width:1050px) {
+    .ourteam-top-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 5vw;
+        grid-row-gap: 8vw;
+        padding: 0 2vw;
+    }
+    .ourteam-top-card> div, .ourteam-bottom-card>div{
+        text-align: left;
+    }
+}
+@media (max-width:750px) {
+    .ourteam-bottom-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 12vw;
+        grid-row-gap: 8vw;
+        padding: 0 2vw;
+    }
+    .ourteam-bottom-card:nth-child(3) {
+        grid-column: 1/3;
+        grid-row: 3/3;
+      }
+}
+@media (max-width:523px) {
+    .ourteam-top-card> div, .ourteam-bottom-card>div{
+        text-align: center;
+    }
+}
+@media (max-width:500px) {
+    .ourteam-top-card> img, .ourteam-bottom-card>img{
+        width: 150px;
+    }
+    .ourteam-top-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+    }
+}

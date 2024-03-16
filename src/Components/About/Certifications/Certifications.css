@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 6vw;
+  gap: 4vw;
 }
 .certifications-img > img {
   padding: 0 30px;
@@ -82,6 +82,14 @@
 .residence-location-img > div {
   text-align: center;
 }
+@media (max-width: 1050px) {
+  .certifications-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-row-gap: 40px;
+  }
+}
 @media (max-width: 750px) {
   .certifications > h3,
   .discover-park > h3,
@@ -93,12 +101,12 @@
     display: flex;
     flex-direction: column;
   }
-  .certifications-img {
+  /* .certifications-img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     grid-row-gap: 40px;
-  }
+  } */
   .discover-park-top {
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 50px;

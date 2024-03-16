@@ -5,7 +5,7 @@ const CeoMessage = () => {
     <div>
       <div className="ceomessage">
         <div className="ceomessage-img">
-          <img src="/AboutPhotos/CeoMessage/CeoMessage.jpeg" alt="" />
+          <img src="/AboutPhotos/CeoMessage/CeoMessage.jpg" alt="" />
         </div>
         <div className="ceomessage-message">
           <h3>CEO's MESSAGE</h3>

@@ -43,6 +43,11 @@
 .ceomessage-message > img {
   padding-top: 25px;
 }
+@media (max-width: 1100px) {
+  .ceomessage {
+    padding: 20px 0vw;
+  }
+}
 @media (max-width: 900px) {
   .ceomessage-message > h3 {
     font-weight: 600;
@@ -53,12 +58,20 @@
     flex-direction: column;
   }
   .ceomessage-img > img {
-    width: 100%;
+    width: 60vw;
   }
   .ceomessage-message {
     margin-top: 30px;
   }
   .ceomessage-message > h5 {
     padding: 0;
+  }
+}
+@media (max-width: 600px) {
+  .ceomessage-img > img {
+    width: 100%;
+  }
+  .ceomessage {
+    padding: 20px 10vw;
   }
 }

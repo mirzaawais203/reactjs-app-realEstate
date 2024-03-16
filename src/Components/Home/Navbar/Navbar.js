@@ -73,7 +73,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Download E-Brouchre
+                Download E-Brochure
               </NavLink>
             </li>
           </ul>
