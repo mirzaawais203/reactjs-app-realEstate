@@ -11,7 +11,7 @@ const Footer = () => {
     <div>
       <div className="footer">
         <div className="footer-left">
-          <img src="./HomePhotos/footer/logo.png" alt="logo" />
+          <img src="./HomePhotos/Footer/logo.png" alt="logo" />
           <p>
           Crafting Legacy with Swiss Excellence. <br />
           Gracia, A Lifestyle Byound Luxury
@@ -19,27 +19,27 @@ const Footer = () => {
         </div>
         <div className="footer-mid">
           <div>
-            <img src="./HomePhotos/footer/aro.png" alt="aro" />
+            <img src="./HomePhotos/Footer/aro.png" alt="aro" />
             <Link to="/">Home</Link>
           </div>
           <div>
-            <img src="./HomePhotos/footer/aro.png" alt="aro" />
+            <img src="./HomePhotos/Footer/aro.png" alt="aro" />
             <Link to="/About">About</Link>
           </div>
           <div>
-            <img src="./HomePhotos/footer/aro.png" alt="aro" />
+            <img src="./HomePhotos/Footer/aro.png" alt="aro" />
             <Link to="/Residence">Residences</Link>
           </div>
           <div>
-            <img src="./HomePhotos/footer/aro.png" alt="aro" />
+            <img src="./HomePhotos/Footer/aro.png" alt="aro" />
             <Link to="/ContactUs">Contact</Link>
           </div>
           <div>
-            <img src="./HomePhotos/footer/aro.png" alt="aro" />
+            <img src="./HomePhotos/Footer/aro.png" alt="aro" />
             <Link to="/Event">Events</Link>
           </div>
           <div>
-            <img src="./HomePhotos/footer/aro.png" alt="aro" />
+            <img src="./HomePhotos/Footer/aro.png" alt="aro" />
             <Link to="/DownloadE-Broucher">Download E-Brochure</Link>
           </div>
         </div>
