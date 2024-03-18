@@ -68,10 +68,11 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/"
+                to="https://drive.google.com/file/d/1LFtpQPu2NhYJNZWgCSBm89pJIXraeOBR/view?usp=sharing"
                 activeclassname="active"
                 className="nav-links"
                 onClick={handleClick}
+                target="_blank"
               >
                 Download E-Brochure
               </NavLink>

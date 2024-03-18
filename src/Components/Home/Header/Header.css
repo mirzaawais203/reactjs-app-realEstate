@@ -69,6 +69,11 @@
   }
 }
 @media (max-width: 550px) {
+  .headermobileview-content {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+  }
   .headermobileview-content > h3 {
     font-size: 45px;
     font-weight: 700;
