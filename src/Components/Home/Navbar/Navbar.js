@@ -8,7 +8,7 @@ function NavBar() {
 
   const handleClick = () => setClick(!click);
   return (
-    <>
+    <div>
       <nav className="navbar">
         <div className="nav-container">
           <NavLink exact to="/" className="navbar-logo">
@@ -57,18 +57,8 @@ function NavBar() {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink
-                to="/"
-                activeclassname="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Event
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                to="https://drive.google.com/file/d/1LFtpQPu2NhYJNZWgCSBm89pJIXraeOBR/view?usp=sharing"
+            <NavLink
+            to="https://drive.google.com/file/d/1HZ9D78OZbOfNQI5mQlCR6Lwizy6DTId9/view?usp=sharing"
                 activeclassname="active"
                 className="nav-links"
                 onClick={handleClick}
@@ -93,8 +83,24 @@ function NavBar() {
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 }
 
 export default NavBar;
+
+
+
+
+
+
+            // <li className="nav-item">
+            //   <NavLink
+            //     to="/"
+            //     activeclassname="active"
+            //     className="nav-links"
+            //     onClick={handleClick}
+            //   >
+            //     Event
+            //   </NavLink>
+            // </li>
