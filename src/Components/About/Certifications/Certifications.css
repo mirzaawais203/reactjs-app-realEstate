@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4vw;
+  gap: 2vw;
 }
 .certifications-img > img {
   padding: 0 30px;
@@ -81,6 +81,11 @@
 }
 .residence-location-img > div {
   text-align: center;
+}
+@media (max-width: 1150px) {
+  .certifications-img {
+  gap: 0;
+  }
 }
 @media (max-width: 1050px) {
   .certifications-img {

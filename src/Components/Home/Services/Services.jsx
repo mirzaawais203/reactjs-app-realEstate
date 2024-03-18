@@ -34,6 +34,10 @@ const Services = () => {
                         <img src="./HomePhotos/Services/7.jpg" alt="services" />
                         <p>SMART APPARTMENTS</p>
                     </div>
+                    <div className="services-card">
+                        <img src="./HomePhotos/Services/8.png" alt="services" />
+                        <p>Gated Community</p>
+                    </div>
                 </div>
             </div>
         </div>

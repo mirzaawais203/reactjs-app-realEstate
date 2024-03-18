@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faInstagram, faFacebookF} from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import { faInstagram, faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
@@ -13,8 +13,9 @@ const Footer = () => {
         <div className="footer-left">
           <img src="./HomePhotos/Footer/logo.png" alt="logo" />
           <p>
-          Crafting Legacy with Swiss Excellence. <br />
-          Gracia, A Lifestyle Byound Luxury
+            Introducing Pakistan to an extravagant and
+            Premium lifestyle, The most Luxurious and
+            Tallest Residential of Lahore
           </p>
         </div>
         <div className="footer-mid">
@@ -57,10 +58,10 @@ const Footer = () => {
               <FontAwesomeIcon icon={faInstagram} className="footer-bottom-icon" />
             </Link>
             <Link target="_blank" to="https://www.linkedin.com/company/the-gracia">
-            <FontAwesomeIcon icon={faLinkedinIn} className="footer-bottom-icon" />
+              <FontAwesomeIcon icon={faLinkedinIn} className="footer-bottom-icon" />
             </Link>
             <Link target="_blank" to="/ContactUs">
-            <FontAwesomeIcon icon={faEnvelope} className="footer-bottom-icon"/>
+              <FontAwesomeIcon icon={faEnvelope} className="footer-bottom-icon" />
             </Link>
           </div>
         </div>

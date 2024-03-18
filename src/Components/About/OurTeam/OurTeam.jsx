@@ -2,19 +2,19 @@ import './OurTeam.css'
 
 const OurTeam = () => {
     return (
-        <div>
+        <>
             <div className='ourteam-top'>
                 <h3>
                     OUR TEAM
                 </h3>
                 <div className='ourteam-top-cards'>
-                    <div className='ourteam-top-card'>
+                    <div className='ourteam-top-card' style={{display:'flex', flexDirection:'column', alignItems:'center'}}>
                         <img src="./AboutPhotos/OurTeam/1.png" alt="pic" />
                         <div>
                             <h5>Major General <br /> Nasrullah Tahir Dogar
                                 <sub className='ourteam-top-card1'>(Retd)</sub>
                             </h5>
-                            <p>ARCHITECTURE</p>
+                            <p>DIRECTOR CEO</p>
                         </div>
                     </div>
                     <div className='ourteam-top-card'>
@@ -24,7 +24,7 @@ const OurTeam = () => {
                             <p>DIRECTOR</p>
                         </div>
                     </div>
-                    <div className='ourteam-top-card'>
+                    <div className='ourteam-top-card' style={{display:'flex', flexDirection:'column', alignItems:'center'}}>
                         <img src="./AboutPhotos/OurTeam/3.png" alt="pic" />
                         <div>
                             <h5>Muhammad Ehsan Dogar</h5>
@@ -82,21 +82,24 @@ const OurTeam = () => {
                     <div className='ourteam-bottom-card'>
                         <img src="./AboutPhotos/OurTeam/10.png" alt="" />
                         <div>
-                            <h5>Anything</h5>
-                            <p>HILIGHTER</p>
-                        </div>
-                    </div>
-                    <div className='ourteam-bottom-card'>
-                        <img src="./AboutPhotos/OurTeam/11.png" alt=""  />
-                        <div>
-                            <h5>Anything</h5>
-                            <p>HILIGHTER</p>
+                            <h5>Naveed</h5>
+                            <p>Avenew Marketing</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 
 export default OurTeam
+
+
+
+// <div className='ourteam-bottom-card'>
+//     <img src="./AboutPhotos/OurTeam/11.png" alt=""  />
+//     <div>
+//         <h5>Anything</h5>
+//         <p>HILIGHTER</p>
+//     </div>
+// </div>
