@@ -9,7 +9,7 @@ const OurTeam = () => {
                 </h3>
                 <div className='ourteam-top-cards'>
                     <div className='ourteam-top-card' style={{display:'flex', flexDirection:'column', alignItems:'center'}}>
-                        <img src="./AboutPhotos/OurTeam/1.png" alt="pic" />
+                        <img src="./AboutPhotos/OurTeam/1.jpg" alt="pic" />
                         <div>
                             <h5>Major General <br /> Nasrullah Tahir Dogar
                                 <sub className='ourteam-top-card1'>(Retd)</sub>
