@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #24272d;
+  background-color: #1f2937;
   height: 80px;
   padding: 46px 0;
   display: flex;
@@ -70,7 +70,16 @@
   line-height: 40px;
   margin-right: 1rem;
 } */
+.nav-links {
+  text-decoration: none;
+}
 
+.nav-links.active {
+  border: 1px solid #b1a164; /* Change color and style as needed */
+  transition: border 0.5s ease; /* Define transition effect */
+  background-color: #b1a164;
+  border-radius: 5px;
+}
 .nav-item:after {
   content: "";
   display: block;

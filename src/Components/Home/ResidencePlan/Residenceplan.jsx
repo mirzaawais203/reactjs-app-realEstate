@@ -101,7 +101,7 @@ const Residenceplan = () => {
         <div className="location-map">
           <iframe
             title="unique"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.047810944112!2d74.1621749754454!3d31.383846474276712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3918fffb7c0803a5%3A0x24eba1a4e1baa3d9!2sThe%20park%20Residence!5e1!3m2!1sen!2s!4v1709010291409!5m2!1sen!2s"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2752.119694482084!2d74.17663624723231!3d31.389800177891736!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3918ffa85b28bc51%3A0xa30d66a6ca0eca0d!2sBahria%20Springs%20Park!5e1!3m2!1sen!2s!4v1710742404799!5m2!1sen!2s"
             width="100%"
             height="300"
             style={{ border: "0", marginTop: "35px" }}

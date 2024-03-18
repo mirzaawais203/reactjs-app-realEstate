@@ -18,6 +18,9 @@
     grid-row-gap: 3vw;
     padding: 0 2vw;
 }
+sub{
+    padding-top: 50px;
+}
 .ourteam-top-card> div, .ourteam-bottom-card>div{
     display: flex;
     flex-direction: column;
