@@ -13,9 +13,7 @@ const Footer = () => {
         <div className="footer-left">
           <img src="./HomePhotos/Footer/logo.png" alt="logo" />
           <p>
-            Introducing Pakistan to an extravagant and
-            Premium lifestyle, The most Luxurious and
-            Tallest Residential of Lahore
+          Gracia, Beyond Luxury, It's a Lifestyle.
           </p>
         </div>
         <div className="footer-mid">

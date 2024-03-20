@@ -38,7 +38,7 @@
 }
 .conatct-form > input[type="submit"] {
   width: 7vw;
-  margin-top: 0.5vw;
+  margin-top: 10px;
   background-color: rgba(6, 106, 171, 1);
   color: #fff;
   cursor: pointer;

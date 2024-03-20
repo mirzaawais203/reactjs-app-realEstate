@@ -115,3 +115,31 @@ const Residenceplan = () => {
 };
 
 export default Residenceplan;
+
+// import React from 'react'
+
+// const Residenceplan = () => {
+//   return (
+//     <div>
+//       <div className="residenceplan-top">
+//         <div className="residenceplan-1bed residenceplan-img" 
+//         style={{display:'flex', flexDirection:'column', alignItems:"center", gap:'2vw'}}>
+//           <div className="residenceplan-top-headings" 
+//           style={{display:'flex', flexDirection:'column', alignItems:"center", justifyContent:'space-between'}}>
+//             <p>1 Bed Room</p>
+//             <img src="./HomePhotos/ResidencePlan/1.png" alt="" style={{width:'200px', height:'300px',paddingTop:'100px'}}/>
+//             <p>BEDROOM 1</p>
+//             <p>KITCHENETTE 1</p>
+//             <p>LOUNGE 1</p>
+//             <p>TOTAL AREA / SQFT 424</p>
+//           </div>
+//           <div className="residenceplan-top-content">
+//             <Link to="/">DOWNLOAD PLAN</Link>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   )
+// }
+
+// export default Residenceplan

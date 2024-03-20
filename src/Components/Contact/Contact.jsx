@@ -1,12 +1,12 @@
 import "./Contact.css";
-import { useRef, useState } from 'react'
-import 'react-phone-number-input-plus/style.css'
-import PhoneInput from 'react-phone-number-input-plus'
+import { useRef } from 'react'
+// import 'react-phone-number-input-plus/style.css'
+// import PhoneInput from 'react-phone-number-input-plus'
 import emailjs from '@emailjs/browser';
 
 
 const Contact = () => {
-  const [value, setValue] = useState()
+  // const [value, setValue] = useState()
   const form = useRef()
   const sendEmail = (e) => {
     e.preventDefault();
@@ -38,16 +38,8 @@ const Contact = () => {
               <label htmlFor="email">Email:</label>
               <input type="email" name="user_email" id="email" placeholder='Email' required />
               <label htmlFor="phone">Phone:</label>
-              <PhoneInput
-                className='country-input'
-                defaultCountry="PK"
-                placeholder="Phone number"
-                value={value}
-                onChange={setValue}
-                required
-                name="user_phone"
-                id="phone"
-              />
+              <input type="email" name="user_email" id="phone" placeholder='Phone Number' required />
+
               <label htmlFor="message">Message:</label>
               <textarea name="message" id="message" required placeholder='Write Your Message Here' rows="5"></textarea>
               <input type="submit" value="Submit" />

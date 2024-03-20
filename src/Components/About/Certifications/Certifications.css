@@ -85,14 +85,18 @@
 @media (max-width: 1150px) {
   .certifications-img {
   gap: 0;
+  
   }
 }
 @media (max-width: 1050px) {
   .certifications-img {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 200px 200px;
     justify-items: center;
-    grid-row-gap: 40px;
+    grid-row-gap: 60px;
+  }
+  .certifications-img> img:last-child{
+    grid-column: 1/3;
   }
 }
 @media (max-width: 750px) {

@@ -1,20 +1,18 @@
 import React from "react";
 import "./Parkresidency.css";
+// import { Link } from "react-router-dom";
 
 const Parkresidency = () => {
   return (
     <div>
       <div className="parkresidency">
         <div className="parkresidency-top">
-          <img src="./HomePhotos/ParkResidency/parkresidency.png" alt="" />
+          <img src="./HomePhotos/ParkResidency/parkresidency.jpg" alt="building" />
         </div>
         <div className="parkresidency-bottom">
-          <h3>Welcome to the PARK Residences</h3>
+          <h3>WELCOME TO <br /> THE GRACIA PARK</h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            pariatur sunt, minus debitis delectus molestiae, iure totam deleniti
-            quam ea, atque nihil. Explicabo, nihil veritatis id quos temporibus
-            consequuntur voluptatum autem sint. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nulla necessitatibus suscipit ipsum reiciendis maxime dolorem debitis nihil in, fugit nesciunt amet deserunt? Voluptates animi soluta consequatur corrupti quidem non dolore doloribus?
+            The Park Residences by Gracia, a distinctive 7-story apartment building redefining urban living. Uniquely positioned, it is enveloped by parks on three sides, creating a harmonious blend of nature and modernity. The architectural masterpiece seamlessly fuses Egyptian and modern design, offering a visual delight. Inside, each apartment is a testament to high standard of living, ensuring a luxurious and comfortable lifestyle. Experience the epitome of unique living at The Park Residences,where nature, architecture, and comfort converge seamlessly.
           </p>
         </div>
       </div>
@@ -23,3 +21,5 @@ const Parkresidency = () => {
 };
 
 export default Parkresidency;
+
+// <Link to="/About">READ MORE</Link>

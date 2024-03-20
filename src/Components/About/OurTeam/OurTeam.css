@@ -34,12 +34,19 @@
     font-size: 16px;
     color: #000000;
 }
-.ourteam-top-card1{
+.ourteam-top-card-sub{
     font-size: 15px;
+    position: absolute;
+    top: 65px;
+    right: 0;
 }
 .ourteam-top-card> div> p> .ourteam-bottom-card>div>p{
     font-size: 15px;
     color: #626569;
+}
+.ourteam-top-card1{
+    padding-top: 21px;
+    position: relative;
 }
 .ourteam-bottom-cards{
     display: grid;
@@ -73,7 +80,7 @@
     .ourteam-bottom-cards{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-column-gap: 10vw;
+        grid-column-gap: 11vw;
         grid-row-gap: 8vw;
         padding: 0 2vw;
     }
@@ -96,5 +103,33 @@
         flex-direction: column;
         align-items: center;
         /* justify-content: center; */
+    }
+    .ourteam-top-cards, .ourteam-bottom-cards{
+        padding: 0 20px;
+    }
+    .ourteam-bottom-card> div, .ourteam-bottom-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+@media (max-width:425px) {
+    .ourteam-top-card-sub{
+        top: 87px;
+        right: 50px;
+    }
+}
+/* @media (max-width:430px) {
+    .ourteam-top-card-sub{
+        top: 60px;
+        right: 5px;
+    }
+} */
+@media (max-width:400px) {
+    .ourteam-top-card> img, .ourteam-bottom-card>img{
+        width: 130px;
     }
 }

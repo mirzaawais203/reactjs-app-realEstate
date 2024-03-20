@@ -10,11 +10,11 @@ const OurTeam = () => {
                 <div className='ourteam-top-cards'>
                     <div className='ourteam-top-card' style={{display:'flex', flexDirection:'column', alignItems:'center'}}>
                         <img src="./AboutPhotos/OurTeam/1.jpg" alt="pic" />
-                        <div>
+                        <div className='ourteam-top-card1'>
                             <h5>Major General <br /> Nasrullah Tahir Dogar
-                                <sub className='ourteam-top-card1'>(Retd)</sub>
+                                <sub className='ourteam-top-card-sub'>(Retd)</sub>
                             </h5>
-                            <p>DIRECTOR CEO</p>
+                            <p style={{paddingTop:'21px'}}>DIRECTOR</p>
                         </div>
                     </div>
                     <div className='ourteam-top-card'>
@@ -26,7 +26,7 @@ const OurTeam = () => {
                     </div>
                     <div className='ourteam-top-card' style={{display:'flex', flexDirection:'column', alignItems:'center'}}>
                         <img src="./AboutPhotos/OurTeam/3.png" alt="pic" />
-                        <div>
+                        <div style={{paddingTop:'21px'}}>
                             <h5>Muhammad Ehsan Dogar</h5>
                             <p>DIRECTOR</p>
                         </div>
@@ -49,21 +49,21 @@ const OurTeam = () => {
                         <img src="./AboutPhotos/OurTeam/6.png" alt="pic" />
                         <div>
                             <h5>Talha Imtiaz</h5>
-                            <p>Architecture</p>
+                            <p>ARCHITECT</p>
                         </div>
                     </div>
                     <div className='ourteam-top-card'>
                         <img src="./AboutPhotos/OurTeam/7.png" alt="pic" />
                         <div>
                             <h5>Sadam Hussain</h5>
-                            <p>Architecture</p>
+                            <p>ARCHITECT</p>
                         </div>
                     </div>
                     <div className='ourteam-top-card'>
                         <img src="./AboutPhotos/OurTeam/8.png" alt="pic" />
                         <div>
                             <h5>Arslan Aslam</h5>
-                            <p>Architecture</p>
+                            <p>ARCHITECT</p>
                         </div>
                     </div>
 
@@ -83,7 +83,7 @@ const OurTeam = () => {
                         <img src="./AboutPhotos/OurTeam/10.png" alt="" />
                         <div>
                             <h5>Naveed</h5>
-                            <p>Avenew Marketing</p>
+                            <p style={{textTransform:'uppercase'}}>Avenew Marketing</p>
                         </div>
                     </div>
                 </div>
