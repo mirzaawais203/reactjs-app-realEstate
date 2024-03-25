@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
+
 
 const PopUpModel = ({ onClose }) => {
     const modelRef = useRef();
@@ -16,24 +18,62 @@ const PopUpModel = ({ onClose }) => {
 
     const sendEmailAndNavigate = (e) => {
         e.preventDefault();
-
+    
+        // Display a toast message indicating that the submission is being processed
+        toast.info("Processing...", {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+        });
+    
         // Send email
-        emailjs.sendForm('service_c60za7w', 'template_bouwyzg', formRef.current, {
-            publicKey: 'Boq2-Wzthufrjzl8I',
-        }).then(
+        emailjs.sendForm('service_c60za7w', 'template_bouwyzg', formRef.current, 'Boq2-Wzthufrjzl8I')
+        .then(
             () => {
                 console.log('SUCCESS!');
-                // After sending email, navigate to the specified link
-                 window.open("https://drive.google.com/file/d/1HZ9D78OZbOfNQI5mQlCR6Lwizy6DTId9/view?usp=sharing", "_blank");
-        },
+    
+                // Show success toast message
+                toast.success("Your mail has been sent successfully!", {
+                  position: "top-right",
+                  autoClose: 5000,
+                  hideProgressBar: false,
+                  closeOnClick: true,
+                  pauseOnHover: true,
+                  draggable: true,
+                  progress: undefined,
+                });
+    
+                // Close the popup model
+                onClose();
+    
+                // After sending email, open the link in a new tab/window
+                window.open("https://drive.google.com/file/d/1HZ9D78OZbOfNQI5mQlCR6Lwizy6DTId9/view?usp=sharing", "_blank");
+            },
             (error) => {
                 console.log('FAILED...', error.text);
+    
+                // Show error toast message
+                toast.error("Failed to submit the form. Please try again.", {
+                  position: "top-center",
+                  autoClose: 5000,
+                  hideProgressBar: false,
+                  closeOnClick: true,
+                  pauseOnHover: true,
+                  draggable: true,
+                  progress: undefined,
+                });
             }
         );
-
-        // Reset the form
-        e.target.reset();
+    
+        // Note: Resetting the form here might clear the form before the user sees the toast message
+        // So you might want to move this inside the .then() after showing the success toast
+        // e.target.reset();
     }
+    
 
     return (
         <div className='popup' ref={modelRef} onClick={closeModel}>

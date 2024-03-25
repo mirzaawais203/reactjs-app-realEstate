@@ -3,6 +3,9 @@ import { useRef } from 'react'
 // import 'react-phone-number-input-plus/style.css'
 // import PhoneInput from 'react-phone-number-input-plus'
 import emailjs from '@emailjs/browser';
+// Import React Toastify components and CSS
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const Contact = () => {
@@ -16,11 +19,17 @@ const Contact = () => {
         publicKey: 'Boq2-Wzthufrjzl8I',
       })
       .then(
-        () => {
-          console.log('SUCCESS!');
+        (result) => {
+          console.log('SUCCESS!', result.text);
+          // Display success toast
+          toast.success("Your mail has been sent successfully!");
+          // Reset the form after successful submission
+          e.target.reset();
         },
         (error) => {
           console.log('FAILED...', error.text);
+          // Display error toast
+          toast.error("Failed to send message. Please try again.");
         },
       );
     e.target.reset()
@@ -66,6 +75,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 };
