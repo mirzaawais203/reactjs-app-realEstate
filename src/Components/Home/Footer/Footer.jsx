@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="footer-left">
           <img src="./HomePhotos/Footer/logo.png" alt="logo" />
           <p>
-          Gracia, Beyond Luxury, It's a Lifestyle.
+            Gracia, Beyond Luxury, It's a Lifestyle.
           </p>
         </div>
         <div className="footer-mid">
@@ -65,8 +65,13 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 2021 THE PARK Residences All Copyrights Reserved,Designed by <Link to='https://hilighter.co/' target="_blank">Hilighter</Link> </p>
-        <p>UAN: (042) 111 777 021  gracia.pk.com</p>
+        <p>© 2023 GRACIA PARK Residences All Copyrights Reserved,Designed by <Link to='https://hilighter.co/' target="_blank">Hilighter</Link> </p>
+        <p style={{ display: "flex", alignItems: "center", gap: "5px", justifyContent: "center", fontSize: "12px", fontWeight: "500" }}>
+          UAN:
+          <span style={{ fontSize: "13px", fontWeight: "600", color: "white" }}>
+            0311 1100 564
+          </span>
+        </p>
       </div>
     </div>
   );

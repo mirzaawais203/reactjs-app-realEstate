@@ -66,11 +66,11 @@ const Contact = () => {
             ></iframe>
             <div className="contact-map-bottom">
               <p>Gracia</p>
-              <p>Office Address :The park Residences , Ejyption Block Bahria Town Lahore, Pakistan</p>
+              <p>Office Address : GRACIA PARK Residences , Ejyption Block Bahria Town Lahore, Pakistan</p>
               <p>Working Hours : Monday to Saturday 11:00 am to 07:00 pm</p>
-              <p>Phone No : 0321-1999999</p>
-              <p>Email: Graciapk.com</p>
-              <p>Gracia.pk</p>
+              <p>Phone No : 0311 1100 564</p>
+              <p>Email: graciapk.com</p>
+              <p>gracia.pk</p>
             </div>
           </div>
         </div>
