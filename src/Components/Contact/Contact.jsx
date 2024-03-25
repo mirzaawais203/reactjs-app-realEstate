@@ -38,10 +38,9 @@ const Contact = () => {
               <label htmlFor="email">Email:</label>
               <input type="email" name="user_email" id="email" placeholder='Email' required />
               <label htmlFor="phone">Phone:</label>
-              <input type="email" name="user_email" id="phone" placeholder='Phone Number' required />
-
+              <input type="number" name="user_phone" id="phone" placeholder='Phone Number' required />
               <label htmlFor="message">Message:</label>
-              <textarea name="message" id="message" required placeholder='Write Your Message Here' rows="5"></textarea>
+              <textarea name="message" id="message" placeholder='Write Your Message Here' rows="5"></textarea>
               <input type="submit" value="Submit" />
             </form>
           </div>

@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import "./Navbar.css";
 import { HamburgetMenuClose, HamburgetMenuOpen } from "./Icons";
+import PopUpModel from "./PopUpModel";
 
 
 function NavBar() {
+  const [showModal, setShowModal] = useState(false)
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
@@ -59,29 +61,28 @@ function NavBar() {
               </NavLink>
             </li>
             <li className="nav-item">
-              <a
-                href="https://drive.google.com/file/d/1HZ9D78OZbOfNQI5mQlCR6Lwizy6DTId9/view?usp=sharing"
+              <Link
                 className="nav-links"
-                target="_blank"
                 rel="noopener noreferrer"
-                onClick={handleClick}
+                onClick={() => setShowModal(true)}
               >
                 Download E-Brochure
-              </a>
-            </li>
-          </ul>
-          <div className="nav-icon" onClick={handleClick}>
-            {click ? (
-              <span className="icon">
+              </Link>
+              {showModal && <PopUpModel onClose={() => setShowModal(false)} />}
+              </li>
+              </ul>
+              <div className="nav-icon" onClick={handleClick}>
+              {click ? (
+                <span className="icon">
                 <HamburgetMenuClose />
+                </span>
+                ) : (
+                  <span className="icon">
+                  <HamburgetMenuOpen />
               </span>
-            ) : (
-              <span className="icon">
-                <HamburgetMenuOpen />
-              </span>
-            )}
-          </div>
-        </div>
+              )}
+              </div>
+              </div>
       </nav>
     </>
   );

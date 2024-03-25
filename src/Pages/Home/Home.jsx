@@ -21,8 +21,8 @@ const Home = () => {
       <Surrounding />
       <Residenceplan />
       <Footer />
-    </div>
-  );
+      </div>
+      );
 };
 
 export default Home;
