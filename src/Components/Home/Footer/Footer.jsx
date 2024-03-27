@@ -1,12 +1,14 @@
-import React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import PopUpModel from '../Navbar/PopUpModel'
 
 const Footer = () => {
+  const [showModal, setShowModal] = useState(false)
   return (
     <div>
       <div className="footer">
@@ -35,17 +37,20 @@ const Footer = () => {
           </div>
           <div>
             <img src="./HomePhotos/Footer/aro.png" alt="aro" />
-            <Link to="/Event">Events</Link>
-          </div>
-          <div>
-            <img src="./HomePhotos/Footer/aro.png" alt="aro" />
-            <Link to="/DownloadE-Broucher">Download E-Brochure</Link>
+            <Link rel="noopener noreferrer" onClick={() => setShowModal(true)}>Download E-Brochure</Link>
+            {showModal && <PopUpModel onClose={() => setShowModal(false)} />}
+
           </div>
         </div>
         <div className="footer-right">
           <div className="footer-right-top">
             <label htmlFor="contact">Conatct us on:</label>
-            <input type="email" name="" id="contact" placeholder="Enter Your Email......" />
+            <p style={{ display: "flex", alignItems: "center", gap: "5px", fontSize: "12px", fontWeight: "400" }}>
+            UAN:
+            <span style={{ fontSize: "13px", fontWeight: "600", color: "white" }}>
+              0311 1100 564
+            </span>
+          </p>
           </div>
           <div className="footer-right-bottom">
             <p>Follow us on:</p>
@@ -66,15 +71,15 @@ const Footer = () => {
       </div>
       <div className="footer-bottom">
         <p>© 2023 GRACIA PARK Residences All Copyrights Reserved,Designed by <Link to='https://hilighter.co/' target="_blank">Hilighter</Link> </p>
-        <p style={{ display: "flex", alignItems: "center", gap: "5px", justifyContent: "center", fontSize: "12px", fontWeight: "500" }}>
-          UAN:
-          <span style={{ fontSize: "13px", fontWeight: "600", color: "white" }}>
-            0311 1100 564
-          </span>
-        </p>
+        
       </div>
     </div>
   );
 };
 
 export default Footer;
+
+// <div>
+//   <img src="./HomePhotos/Footer/aro.png" alt="aro" />
+//   <Link to="/Event">Events</Link>
+// </div>

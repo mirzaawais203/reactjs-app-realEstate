@@ -10,7 +10,6 @@ import { ToastContainer } from 'react-toastify';
 function App() {
   return (
     <BrowserRouter>
-    
       <AppContent />
     </BrowserRouter>
   );
@@ -25,19 +24,19 @@ function AppContent() {
 
   return (
     <div>
-    <ToastContainer />
-    <Routes>
-    <Route path="/" element={<Home />} />
-    <Route path="/About" element={<About />} />
-    <Route path="/Residence" element={<Residence />} />
-    <Route path="/ContactUs" element={<ContactUs />} />
-    </Routes>
+      <ToastContainer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Residence" element={<Residence />} />
+        <Route path="/ContactUs" element={<ContactUs />} />
+      </Routes>
     </div>
-    );
-  }
-  
-  export default App;
-  
+  );
+}
+
+export default App;
+
 
 
 
