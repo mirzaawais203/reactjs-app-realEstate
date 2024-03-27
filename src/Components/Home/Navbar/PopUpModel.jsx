@@ -51,7 +51,7 @@ const PopUpModel = ({ onClose }) => {
                 onClose();
     
                 // After sending email, open the link in a new tab/window
-                window.open("https://drive.google.com/file/d/1HZ9D78OZbOfNQI5mQlCR6Lwizy6DTId9/view?usp=sharing", "_blank");
+                window.open("https://drive.google.com/file/d/1gWht-0RRUbBJs7795WBEZxPSfDL_eRRn/view?usp=sharing", "_blank");
             },
             (error) => {
                 console.log('FAILED...', error.text);
