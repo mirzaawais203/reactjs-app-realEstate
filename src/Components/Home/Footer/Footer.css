@@ -2,7 +2,7 @@
   background-color: #24272d;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: self-start;
   color: #ffffff;
   gap: 7vw;
   padding: 3vw 0;
@@ -44,7 +44,7 @@
 .footer-right-top {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
 }
 .footer-right-top > label,
 .footer-right-bottom > p {
@@ -71,6 +71,12 @@
 }
 .footer-bottom-icon{
   margin: 0 0 0 15px;
+}
+.footer-bottom-iconF:hover,
+.footer-bottom-icon:hover{
+  background-color: #ffffff;
+  color: #30343b;
+  transition: .3s ease-in-out;
 }
 .footer-bottom-icon, .footer-bottom-iconF {
   margin-top: 10px;

@@ -45,9 +45,9 @@ const Footer = () => {
         <div className="footer-right">
           <div className="footer-right-top">
             <label htmlFor="contact">Conatct us on:</label>
-            <p style={{ display: "flex", alignItems: "center", gap: "5px", fontSize: "12px", fontWeight: "400" }}>
+            <p style={{ display: "flex", alignItems: "center", gap: "5px", fontSize: "13px", fontWeight: "500" }}>
             UAN:
-            <span style={{ fontSize: "13px", fontWeight: "600", color: "white" }}>
+            <span style={{ fontSize: "12px", fontWeight: "300", color: "white" }}>
               0311 1100 564
             </span>
           </p>
