@@ -4,7 +4,7 @@ import CeoMessage from "../../Components/About/CeoMessage/CeoMessage"
 // import OurArchitecture from "../../Components/About/OurArchitecture/OurArchitecture"
 import OurTeam from "../../Components/About/OurTeam/OurTeam"
 // import Location from "../../Components/About/Location/Location"
-import Parkresidency from "../../Components/About/ParkResidency/Parkresidency"
+// import Parkresidency from "../../Components/About/ParkResidency/Parkresidency"
 import Certifications from "../../Components/About/Certifications/Certifications"
 import Footer from "../../Components/Home/Footer/Footer"
 
@@ -17,7 +17,6 @@ const About = () => {
       <CeoMessage />
       <OurTeam />
       <Certifications />
-      <Parkresidency />
       <Footer />
       </div>
   )
@@ -25,5 +24,6 @@ const About = () => {
 
 export default About
 
+      // <Parkresidency />
 // <OurArchitecture />
 // <Location/>
