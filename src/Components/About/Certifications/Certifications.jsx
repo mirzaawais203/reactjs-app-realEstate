@@ -12,7 +12,7 @@ const Certifications = () => {
           <img src="./AboutPhotos/OurCertifications/ourpartners4.jpeg" alt="partners" />
           <img src="./AboutPhotos/OurCertifications/ourpartners5.jpeg" alt="partners" style={{ width: '170px' }} />
           <img src="./AboutPhotos/OurCertifications/ourpartners6.png" alt="partners" style={{ width: '170px' }}/>
-          <img src="./AboutPhotos/OurCertifications/ourpartners7.png" alt="partners" />
+          <img src="./AboutPhotos/OurCertifications/ourpartners7.png" alt="partners" style={{ width: '170px' }}/>
 
         </div>
       </div>
